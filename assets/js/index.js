@@ -6,7 +6,8 @@ const registroDeAnimales = (() => {
     let _animales, _animalesRegistrados = [];
     let _listado, _datosAnimal, _imagenAnimal, _validarFormulario,
         _procesarRegistro, _desplegarAnimal, _reiniciarFormulario, _datosRegistro;
-    const _animalesAPI = location.host; 
+    // const _animalesAPI = location.host; 
+    const _animalesAPI = 'gapablaza.github.io/animales-salvajes'; 
 
     // Obtiene los datos base de los animales desde una 'API'
     fetch(`//${_animalesAPI}/animales.json`)
